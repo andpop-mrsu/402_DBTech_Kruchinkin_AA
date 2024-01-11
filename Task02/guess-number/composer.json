@@ -1,0 +1,28 @@
+{
+    "name": "alexzero00/guess-number",
+    "autoload": {
+        "psr-4": {
+            "Alex\\GuessNumber\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alexzero00",
+            "email": "alexzero@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.22"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "bin": [
+        "bin/guess-number.php"
+    ]
+}
