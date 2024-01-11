@@ -1,0 +1,23 @@
+{
+    "name": "alexzero00/guess_number",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alexzero00",
+			"email": "alexzero@gmail.com"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13",
+        "gabordemooij/redbean": "dev-master",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5",
+        "slim/http": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alex\\guess_number\\": "src/"
+        }
+    }
+}
